@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ha-monitor"
+version = "0.1.0"
+description = "Home Assistant script monitoring"
+authors = [{name = "Albin Edegran"}]
+requires-python = ">=3.7"
+dependencies = ["paho-mqtt"]
+
+[project.urls]
+Repository = "https://github.com/albined/ha_monitor"

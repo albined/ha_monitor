@@ -89,12 +89,3 @@ class ScriptMonitor:
             message=status_message or "",
             qos=0
         )
-        
-        
-if __name__ == "__main__":
-    with ScriptMonitor("test_script", "192.168.1.2", "albin", "albinalbinalbin") as monitor:
-        for i in range(100):
-            monitor.update(iteration=i, status_message=f"Iteration {i}")
-            print(f"Iteration {i} completed.")
-            time.sleep(2)  # Simulate work being done
-        print("Script completed successfully.")
