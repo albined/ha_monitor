@@ -5,7 +5,7 @@ Monitor your scripts in Home Assistant via MQTT.
 ## Installation
 
 ```bash
-pip install git+https://github.com/yourusername/ha_monitor.git
+pip install git+https://github.com/albined/ha_monitor.git
 ```
 
 ## Usage
