@@ -9,6 +9,8 @@ description = "Home Assistant script monitoring"
 authors = [{name = "Albin Edegran"}]
 requires-python = ">=3.7"
 dependencies = ["paho-mqtt"]
+license = {text = "MIT"}
+readme = "README.md"
 
 [project.urls]
-Repository = "https://github.com/albined/ha_monitor"
+repository = "https://github.com/albined/ha_monitor"
